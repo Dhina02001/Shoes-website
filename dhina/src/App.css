@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.img2{background-image: url('https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_1280/cms/6gDTGr0QSUNJt2b84URhBX/4696495d40b0f89759a095969ab254b9/23Q4-WR2-Color-Refresh-Hero-1-Desktop-3840___1439.jpg');
+  background-repeat: no-repeat;
+  width: auto;
+ position: relative;
+ height: 400px;
+
+
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 60%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(51, 51, 51, 0.2);
+}
+
+.w1{
+  width: 1300px;
+  height: 500px;
+}
+.w2{
+  width: 1300px;
+  height: 500px;
+}
+
+.a1{
+  text-decoration: none;
+  color: #282c34;
+}
+
+
+
+
